@@ -10,7 +10,7 @@ yMedia = sum(y) / len(y)
 somatorioXY = 0
 somatorioXX = 0
 
-for i in range(len(x)): #acessa cada posição do indice
+for i in range(min(len(x), len(y))): #acessa cada posição do indice
     somatorioXY += (x[i] - xMedia) * (y[i] - yMedia) #resultado de indice menos a media(x)  X  resultado de indice menos media(y)  - (multiplicando as diferenças) 
     somatorioXX += (x[i] - xMedia) ** 2 #resultado do indice menos a media ao quadrado
 
