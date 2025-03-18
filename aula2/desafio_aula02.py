@@ -4,6 +4,7 @@ y = [2, 4, 5, 4, 5]
 xMedia = sum(x) / len(y)
 yMedia = sum(y) / len(y)
 
+
 #print(xMedia)  #testando se realmente estava somando e dividindo pelo número de indices
 #print(yMedia)
 
